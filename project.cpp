@@ -83,6 +83,7 @@ int main() {
     g[14][19]=g[19][14]=6;
     g[14][18]=g[18][14]=3;
     g[17][19]=g[19][17]=2;
+    g[18][19]=g[19][18]=2;
     unordered_map<char, int> autos;  // storing indices of autos
     autos['A'] = 0;
     autos['B'] = 1;
